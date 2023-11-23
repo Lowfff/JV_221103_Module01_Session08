@@ -1,0 +1,36 @@
+// Có 2 cách để nhúng JS vào trong HTML
++ Cách 1: Viết code js bên trong cặp thẻ <script></script> được đặt bên trên thẻ đsong của thẻ body
++ Cách 2: Tạo một file có đuôi .js bên ngoài và sau đó nhúng nó vào thuộc tính src của thẻ script được đặt bên trên thẻ đóng của thẻ body
+=> File .js được đặt ở cuói file vì khi ứng dụng được chạy thì chúng ta sẽ ưu tiên về mặt hiển thị trước và hiện thị dữ liệu sau
+// Khai báo biến
++ Biến là nơi lưu trữ dữ liệu trong bộ nhớ (VD:"nguyễn văn a", 1, 2,,..)
++ Cú pháp: tu_khoa ten_bin = gia tri
++ Tên biến phải viết bằng tiếng anh,không có ký tự đặc biệt (*,%,...), viết theo cammel case, và phải có ý nghĩa
++ Dấu "=" là một toán tử gán
+" Giá trị: địa chỉ, tuổi, cân nặng,...
+
+// Từ khoá khai báo biển
++ var
++ let
+
+// Kiểu dữ liệu
++ string(chuỗi): "Nguyễn Văn A", "Hà Nội" -> Dữ liệu của dạng này sẽ được bọc bên trong dấu "", ''
+  Ví dụ: var userName = "Nguyễn Văn A";
++ number(số): 1,2,3,....
+  Ví dụ: var age = 21;
++ boolean: Dạn đúng sai (true và false)
+  Ví dụ: var isMale = true;
+
+ //Sự khác nhau giữa toán tử == và ===
+ + Toán tử == thì nó chỉ so sánh về mặt giá trị chứ không so sánh về kiểu dữ liệu
+ + Toán tử === thì sẽ so sánh cả giá trị và kiểu dữ liệu 
+
+
+// >= : Lớn hơn hoặc bằng: 1>=1 || 2>=3 || 3>=2
+// <= : Bé hơn hoặc bằng: 1<=3 || 2<=1 
+
+Toán tử logic
++ &&: Nó nhận giá trị true khi tất cả các điều kiện đều thoả mãn
++ ||: Nó nhận giá trị true khi chỉ cần 1 điều kiện thoả mãn 
++ !: Phủ định lại giá trị boolean (true hoặc false)
++ !=: So sánh các giá trị vs nhau (a khác b thì viết là a != b)
